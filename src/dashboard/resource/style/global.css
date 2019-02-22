@@ -1,0 +1,63 @@
+/* 全局样式 */
+.text-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.flex-align-center {
+    display: flex;
+    align-items: center;
+}
+/*========================================== 重写antd样式 start=============================*/
+.ant-modal-header {
+    border-bottom: 0;
+    padding: 10px 20px;
+}
+.ant-modal-body {
+    padding: 0 20px 12px;
+}
+.ant-modal-close-x {
+    width: 43px;
+    height: 43px;
+    line-height: 43px;
+}
+.ant-modal-title {
+    font-weight: bold;
+}
+.ant-modal-footer {
+    padding: 10px 0;
+}
+/* 修改弹窗圆角为直角 */
+.ant-modal-content{
+    border-radius: 0;
+}
+/*========================================== 重写antd样式 end=============================*/
+/* CodeMirror hint pop */
+.CodeMirror-hints {
+    z-index: 1001!important;
+}
+.cm-formula {
+    color: #29b7f4;
+}
+.cm-field {
+    color: #39b801;
+}
+
+.ds-icon {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(../images/icon.png) no-repeat;
+}
+.ds-icon-edit {
+    background-position: -204px -180px;
+}
+.ds-icon-delete {
+    background-position: -331px -180px;
+}
+.ds-icon-search {
+    background-position: -223px -180px;
+}
+.ds-icon-plus {
+    background-position: -242px -180px;
+}
